@@ -44,13 +44,6 @@ public class CoursePopulator {
         Lecturer lecturer2 = new Lecturer("Jack McGrath", "04/05/1980", 42, 4566566);
         Lecturer lecturer3 = new Lecturer("James Franco", "07/10/1990", 32, 45656655);
 
-        //String a1 = s1.getUsername();
-        //s2.getUsername();
-        //s3.getUsername();
-
-        //l1.getUsername();
-        //l3.getUsername();
-
         Module lawModule = new Module("Law", "BA234", lecturer1, lawStudents);
         Module itModule = new Module("IT", "BA756", lecturer2, itStudents);
         Module geoModule = new Module("Geography", "BA485", lecturer3, geoStudents);
